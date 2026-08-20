@@ -87,6 +87,8 @@ npm run dev
 
 Open `http://localhost:3000` in a browser.
 
+The deployed frontend is available at [https://resumereviewerfrontend-five.vercel.app/](https://resumereviewerfrontend-five.vercel.app/).
+
 The current frontend sends analysis requests to the deployed backend at:
 
 ```text
@@ -148,6 +150,7 @@ npm start         # Serve the production build
 
 Both applications include Vercel configuration:
 
+- Live frontend: [https://resumereviewerfrontend-five.vercel.app/](https://resumereviewerfrontend-five.vercel.app/)
 - Deploy `frontend/` as a Next.js project.
 - Deploy `backend/` as a Python project using `backend/vercel.json`.
 - Configure `GROQ_API_KEY` in the backend deployment environment.
